@@ -25,4 +25,7 @@
   background-color:#96ECC6 !important;
   border-color:#96ECC6 !important;
 }
-button {   outline: none; }
+.page{
+  margin-top:50%;
+  height:200px;
+}

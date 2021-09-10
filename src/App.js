@@ -93,7 +93,7 @@ function App() {
               data={posts}
               RenderComponent={VerticalPost}
               pageLimit={3}
-              dataLimit={4}
+              dataLimit={6}
             />
           </>
         ) : (

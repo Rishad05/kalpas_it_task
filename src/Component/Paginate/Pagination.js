@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFastBackward, faFastForward } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from 'react';
 import './Pagination.css';
 
@@ -48,7 +50,7 @@ const Pagination = ({ data, RenderComponent, pageLimit, dataLimit }) => {
             onClick={goToPreviousPage}
             className={`prev ${currentPage === 1 ? 'disabled' : ''}`}
           >
-            prev
+             <FontAwesomeIcon icon={faFastBackward} />
           </button>
     
           {/* show page numbers */}
@@ -67,7 +69,7 @@ const Pagination = ({ data, RenderComponent, pageLimit, dataLimit }) => {
             onClick={goToNextPage}
             className={`next ${currentPage === pages ? 'disabled' : ''}`}
           >
-            next
+            <FontAwesomeIcon icon={faFastForward} />
           </button>
         </div>
       </div>
