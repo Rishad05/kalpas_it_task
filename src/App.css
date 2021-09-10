@@ -1,0 +1,28 @@
+.sidebar{
+  background-color: #EBF2F7;
+  height: 100%;
+  padding: 10px;
+}
+.div_bg{
+ background-color: #fff; 
+}
+.imageSize{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 10px;
+  justify-content: center;
+}
+.header{
+  padding: 10px;
+  margin-left:5px ;
+}
+.btn{
+  border: 0;
+  background-color: #DCE4EB;
+}
+.btn-danger{
+  background-color:#96ECC6 !important;
+  border-color:#96ECC6 !important;
+}
+button {   outline: none; }
