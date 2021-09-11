@@ -67,7 +67,7 @@ const Pagination = ({ data, RenderComponent, pageLimit, dataLimit }) => {
           {/* next button */}
           <button
             onClick={goToNextPage}
-            className={`next ${currentPage === pages ? 'disabled' : ''}`}
+            className={`next ${currentPage === 17 ? 'disabled' : ''}`}
           >
             <FontAwesomeIcon icon={faFastForward} />
           </button>
